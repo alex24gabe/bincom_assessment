@@ -3,7 +3,7 @@ const express = require("express");
 const {
   getAllLgas,
   getLgaResults,
-} = require("../controllers/lgaController");
+} = require("../controllers/TempController");
 
 const router = express.Router();
 
