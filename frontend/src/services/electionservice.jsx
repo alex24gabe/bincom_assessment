@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://10.196.128.225:5000/api";
-
+const API_URL = "https://bincomassessment-production.up.railway.app/api";
 export const getPollingUnits = async () => {
   const response = await axios.get(
     `${API_URL}/polling-units`
