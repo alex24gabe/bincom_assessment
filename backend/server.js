@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
-const pollingUnitRoutes = require("./routes/tempRoutes");
+const pollingUnitRoutes = require("./routes/pollingUnitRoutes");
 const lgaRoutes = require("./routes/lgaRoutes");
 
 app.use(cors());
